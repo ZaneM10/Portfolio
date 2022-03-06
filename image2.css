@@ -1,0 +1,44 @@
+/*navbar */ 
+.nav-bar ul {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/*home*/
+#home {
+    height: 800px;
+}
+.headings{
+    font-size: 12px;
+}
+/* About */
+#picture img{
+    width: 150px;
+    height: 150px;
+}
+#intro h2{
+    font-size: 80px;
+    text-align: center;
+}
+
+#intro p {
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+/*portflio*/
+.gallery img{
+    width: 190px;
+    height: 190px;
+    margin: 9px;
+}
+/* Contact */
+.input{
+    width: 80%;
+}
+#msg{
+    width: 70%;
+}
+#send{
+    width: 20%;
+}
