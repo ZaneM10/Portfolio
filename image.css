@@ -2,7 +2,8 @@
 *{
     padding: 0;
     margin: 0;
-scroll-behavior: smooth;
+    scroll-behavior: smooth;
+    cursor: pointer;
 }
  .nav-bar ul {
      display: flex;
@@ -47,12 +48,15 @@ scroll-behavior: smooth;
 #intro h2{
     text-align: center;
     padding: 10px;
+    color: navy;
 } 
 
 
  /* Contact  */
  .input{
     width: 50%;
+    color: navy;
+    margin-top: 10px;
 }
 #msg{
     width:45%;
@@ -63,7 +67,8 @@ scroll-behavior: smooth;
 
 .box{
     
-    border: 1px solid black;
+    border: 10px solid navy;
+    margin-top: 10px;
 }
 
 #service{
@@ -78,5 +83,16 @@ scroll-behavior: smooth;
 .row{
 
     padding: 20px;
+    
 }
 
+.box{
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    background-color: rgba(65, 105, 225, 0.831);
+}
+
+.box a:hover{
+    font-size: 100px;
+}
